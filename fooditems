@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+	int choice;
+	printf(" enter 1 for pizza \n");
+	printf("enter 2 for burger \n");
+	printf("enter 3 for pasta\n");
+	printf("enter 4 for french fries \n");
+	printf("enter 5 for sandwich \n");
+	scanf("%d",&choice);
+	switch(choice)
+	{
+		case 1:
+			printf("price of pizza is rs 239 \n"
+			"one pizza is coming up\n");
+			break;
+		case 2:
+		printf("price of burger is rs 129 \n"
+		"one burger is coming up\n");
+		break;
+		case 3:
+		printf("price of pasta is rs 179\n"
+		"one pasta is coming up\n");
+		case 4:
+		printf("price of french fries is rs 99\n"
+		"one french fries is coming up\n");	
+		case 5:
+		printf("price of sandwich is rs 149\n"
+		"one sandwich is coming up\n");
+		default:
+			printf("sorry! what you want is not available\n");
+	}
+}
